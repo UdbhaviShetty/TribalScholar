@@ -1,0 +1,1 @@
+{"name":"@ts/core","version":"1.0.0","type":"module","scripts":{"test":"tsx --test src/engine.test.ts"},"devDependencies":{"tsx":"^4.19.0","typescript":"^5.5.0"}}

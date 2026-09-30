@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "TribalScholar",
+    "slug": "tribalscholar",
+    "scheme": "tribalscholar",
+    "android": {
+      "package": "com.tribalscholar.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset"
+    ],
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    }
+  }
+}

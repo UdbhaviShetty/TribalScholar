@@ -1,0 +1,12 @@
+{
+  "name": "tribalscholar",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm -w packages/core test && npm --prefix mobile test",
+    "test:core": "npm -w packages/core test",
+    "test:mobile": "npm --prefix mobile test"
+  }
+}
